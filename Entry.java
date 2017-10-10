@@ -117,28 +117,7 @@ public class Entry
 		   {
                System.out.println("Customer Wants Five Items");
 			   
-			   System.out.println("Now Enter the Key U Want from the List");
-			   int k1=s1.nextInt();
-			   int k2=s1.nextInt();
-			   int k3=s1.nextInt();
-			   int k4=s1.nextInt();
-			   int k5=s1.nextInt();
-			   
-			   String item1=(String) m1.get(k1);
-			   String item2=(String) m1.get(k2);
-			   String item3=(String) m1.get(k3);
-			   String item4=(String) m1.get(k4);
-			   String item5=(String) m1.get(k5);
-			   List l1=new ArrayList();
-			   l1.add(item1);
-			   l1.add(item2);
-			   l1.add(item3);
-			   l1.add(item4);
-			   l1.add(item5);
-			   System.out.println("Customer Ordered Items are : "+l1);		
 			  
-			   System.out.println("Customer Ordered List Sent to Kitchen");
-		   }
 	   }
    }
 	public static void main(String[] args) 

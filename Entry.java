@@ -147,6 +147,8 @@ public class Entry
 	   Entry e=new Entry();
 	   e.enter();
 	}
+	{
+	}
    
    
 }

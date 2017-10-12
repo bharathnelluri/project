@@ -114,7 +114,7 @@ public class Entry
 			   System.out.println("Customer Ordered List Sent to Kitchen");
 		   }
 		   if(n==5)
-		   {
+		   {{
                System.out.println("Customer Wants Five Items");
 			    System.out.println("Customer Wants Five Items");
 			   
@@ -140,15 +140,15 @@ public class Entry
 			  
 			   System.out.println("Customer Ordered List Sent to Kitchen");
 		   }
-	   }
+	   }}
    }
 	public static void main(String[] args) 
 	{
 	   Entry e=new Entry();
 	   e.enter();
 	}
-	{
-	}
+	
+	
    
    
 }
